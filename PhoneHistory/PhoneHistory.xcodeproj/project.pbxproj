@@ -13,6 +13,7 @@
 		09CD413E1EF20CDA00890776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CD413C1EF20CDA00890776 /* LaunchScreen.storyboard */; };
 		A57933371EF6BCBC00F99C10 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57933361EF6BCBC00F99C10 /* AboutMeViewController.swift */; };
 		A57933391EF6BFEC00F99C10 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57933381EF6BFEC00F99C10 /* Product.swift */; };
+		A5FEEE3A1EF7FF7E0054ABB1 /* PhoneDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEEE391EF7FF7E0054ABB1 /* PhoneDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		09CD413F1EF20CDA00890776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57933361EF6BCBC00F99C10 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		A57933381EF6BFEC00F99C10 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A5FEEE391EF7FF7E0054ABB1 /* PhoneDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				09CD413C1EF20CDA00890776 /* LaunchScreen.storyboard */,
 				09CD413F1EF20CDA00890776 /* Info.plist */,
 				A57933381EF6BFEC00F99C10 /* Product.swift */,
+				A5FEEE391EF7FF7E0054ABB1 /* PhoneDetail.swift */,
 			);
 			path = PhoneHistory;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FEEE3A1EF7FF7E0054ABB1 /* PhoneDetail.swift in Sources */,
 				09CD41361EF20CDA00890776 /* ViewController.swift in Sources */,
 				A57933391EF6BFEC00F99C10 /* Product.swift in Sources */,
 				A57933371EF6BCBC00F99C10 /* AboutMeViewController.swift in Sources */,

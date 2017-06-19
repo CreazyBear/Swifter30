@@ -15,9 +15,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     fileprivate var navigationTitle :String
     fileprivate lazy var tableView :UITableView = {
         let table = UITableView.init()
+        table.backgroundColor = UIColor.white
+        table.register(UITableViewCell.self, forCellReuseIdentifier: self.identifer)
+        table.frame = self.view.bounds
+        table.delegate = self
+        table.dataSource = self
         return table
     }()
-    
     
     init() {
         navigationTitle = "PhoneList"
@@ -43,11 +47,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.view.backgroundColor = UIColor.white
         self.title = navigationTitle
         self.view.addSubview(self.tableView)
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: self.identifer)
-        self.tableView.frame = self.view.bounds
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
-        self.tableView.backgroundColor = UIColor.white
         
         products = [
             Product(name: "1907 Wall Set", cellImageName: "image-cell1", fullscreenImageName: "phone-fullscreen1"),

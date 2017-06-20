@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     let cellIdentify = "cellIdentify"
     let elements:[String] = {
-        let eles = ["Label"]
+        let eles = ["Label","Text","Gesture"]
         return eles
     }()
     
@@ -55,7 +55,24 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         return cell!
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        var vc:UIViewController?;
+        if(elements[indexPath.row] == "Label")
+        {
+            vc = UILabelViewController()
+            
+        }
+        else if(elements[indexPath.row] == "Text")
+        {
+            vc = UITextViewController()
+        }
+        else if(elements[indexPath.row] == "Gesture")
+        {
+            vc = GetureViewController()
+        }
+        guard vc != nil else {
+            return;
+        }
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     

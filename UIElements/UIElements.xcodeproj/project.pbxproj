@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098315B41EF9F7CE0031EBD5 /* UIMassiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098315B31EF9F7CE0031EBD5 /* UIMassiveViewController.swift */; };
 		09E3A7291EF8A60200C088C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3A7281EF8A60200C088C1 /* AppDelegate.swift */; };
 		09E3A72B1EF8A60200C088C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3A72A1EF8A60200C088C1 /* ViewController.swift */; };
 		09E3A7301EF8A60200C088C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E3A72F1EF8A60200C088C1 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098315B31EF9F7CE0031EBD5 /* UIMassiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMassiveViewController.swift; sourceTree = "<group>"; };
 		09E3A7251EF8A60200C088C1 /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E3A7281EF8A60200C088C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E3A72A1EF8A60200C088C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A59DA3E31EF93AFE00669AD2 /* UILabelViewController.swift */,
 				A59DA3E51EF93F7000669AD2 /* UITextViewController.swift */,
 				A59DA3E71EF94B3800669AD2 /* GetureViewController.swift */,
+				098315B31EF9F7CE0031EBD5 /* UIMassiveViewController.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				09E3A7291EF8A60200C088C1 /* AppDelegate.swift in Sources */,
 				A59DA3E41EF93AFE00669AD2 /* UILabelViewController.swift in Sources */,
 				A59DA3E61EF93F7000669AD2 /* UITextViewController.swift in Sources */,
+				098315B41EF9F7CE0031EBD5 /* UIMassiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

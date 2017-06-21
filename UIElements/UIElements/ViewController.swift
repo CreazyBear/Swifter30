@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     let cellIdentify = "cellIdentify"
     let elements:[String] = {
-        let eles = ["Label","Text","Gesture"]
+        let eles = ["Label","Text","Gesture","Massive"]
         return eles
     }()
     
@@ -68,6 +68,10 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         else if(elements[indexPath.row] == "Gesture")
         {
             vc = GetureViewController()
+        }
+        else if(elements[indexPath.row] == "Massive")
+        {
+            vc = UIMassiveViewController()
         }
         guard vc != nil else {
             return;

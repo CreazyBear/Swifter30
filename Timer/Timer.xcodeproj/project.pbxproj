@@ -290,6 +290,7 @@
 				A5DA247A1EFE40F6007D1080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

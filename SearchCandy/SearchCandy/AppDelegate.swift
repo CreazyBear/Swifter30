@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         splitViewController.viewControllers = [navMaster!,navDetail!]
         splitViewController.delegate = self
-        splitViewController.preferredDisplayMode = .primaryHidden
+        splitViewController.preferredDisplayMode = .allVisible
         
         UISearchBar.appearance().barTintColor = UIColor.candyGreen()
         UISearchBar.appearance().tintColor = UIColor.white

@@ -129,7 +129,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource
     
     //这两个函数用于移动cell
     func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        return self.isEditing
+        return true
     }
     
     func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {

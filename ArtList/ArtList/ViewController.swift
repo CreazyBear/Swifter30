@@ -42,6 +42,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
+        cell.selectionStyle = .none
         let artist = artlistDataSource[indexPath.row]
         if cell.isKind(of: ArtistTableViewCell.self)
         {

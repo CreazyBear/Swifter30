@@ -10,7 +10,7 @@ import UIKit
 
 class WorksViewController: UIViewController {
 
-    var model:Artist?
+    var model:Artist!
     let cellID = "CELLID"
     
     lazy var table:UITableView = {
@@ -33,7 +33,7 @@ class WorksViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = model?.name
+        title = model.name
         view.backgroundColor = UIColor.white
         
         self.view.addSubview(self.table)
@@ -48,24 +48,41 @@ extension WorksViewController:UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.model?.works.count ?? 0
+        return self.model.works.count 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
-        let work = model?.works[indexPath.row]
+        let work = model.works[indexPath.row]
+        cell.selectionStyle = .none
         if cell.isKind(of: WorkDetailTableViewCell.self)
         {
-            (cell as! WorkDetailTableViewCell).bindData(model: work!)
+            (cell as! WorkDetailTableViewCell).bindData(model: work)
         }
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 300
+        let work = model.works[indexPath.row]
+        if work.isExpanded
+        {
+            return 380
+        }
+        else{
+            return 250
+        }
+        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var work = model.works[indexPath.row]
+        work.isExpanded = !work.isExpanded
+        model.works[indexPath.row] = work
+        (tableView.cellForRow(at: indexPath) as! WorkDetailTableViewCell).bindData(model: work)
+        tableView.beginUpdates()
+        tableView.endUpdates()
+//        tableView.reloadData()
+        tableView.scrollToRow(at: indexPath, at: .top, animated: true)
 
     }
 }

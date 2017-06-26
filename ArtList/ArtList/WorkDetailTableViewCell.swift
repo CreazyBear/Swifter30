@@ -10,6 +10,7 @@ import UIKit
 
 class WorkDetailTableViewCell: UITableViewCell {
 
+    var model:Work?
     lazy var title:UILabel = {
         let title = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 20))
         title.numberOfLines = 1
@@ -21,17 +22,17 @@ class WorkDetailTableViewCell: UITableViewCell {
     }()
     
     lazy var workImage : UIImageView = {
-        let workImage = UIImageView.init(frame: CGRect.init(x: 10, y: 20, width: UIScreen.main.bounds.width-60, height: UIScreen.main.bounds.width-50))
+        let workImage = UIImageView.init(frame: CGRect.init(x: (UIScreen.main.bounds.width-200)/2, y: 20, width: 200, height: 200))
         workImage.layer.cornerRadius = 4
         workImage.contentMode = .scaleAspectFit
         return workImage
     }()
     
     lazy var info : UILabel = {
-        let infolable = UILabel.init(frame: CGRect.init(x: 10, y: UIScreen.main.bounds.width+30, width: UIScreen.main.bounds.width-20, height: 20))
+        let infolable = UILabel.init(frame: CGRect.init(x: 10, y: 230, width: UIScreen.main.bounds.width-20, height: 20))
         infolable.numberOfLines = 0
         infolable.textAlignment = .center
-        infolable.textColor = UIColor.white
+        infolable.textColor = UIColor.black
         infolable.font = UIFont.systemFont(ofSize: 13)
         return infolable
     }()
@@ -57,8 +58,6 @@ class WorkDetailTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     func setupViews() {
@@ -68,14 +67,28 @@ class WorkDetailTableViewCell: UITableViewCell {
     }
     
     func bindData(model:Work) {
+        self.model = model
         title.text = model.title
         workImage.image = model.image
         if model.isExpanded
         {
-            info.text = model.info
+            UIView.animate(withDuration: 0.3, animations: { 
+                self.info.text = model.info
+                var frame = self.info.frame
+                frame.size.height = 140
+                self.info.frame = frame
+    
+            })
         }
         else{
-            info.text = "Click to See More Info!"
+            UIView.animate(withDuration: 0.3, animations: { 
+                var frame = self.info.frame
+                frame.size.height = 20
+                self.info.frame = frame
+                self.info.text = "Click to See More Info!"
+        
+            })
+            
         }
         
     }

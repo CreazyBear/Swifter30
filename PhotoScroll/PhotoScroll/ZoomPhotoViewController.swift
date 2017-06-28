@@ -13,9 +13,10 @@ class ZoomPhotoViewController: UIViewController {
     var photoName : String
     lazy var scrollView : UIScrollView = {
         let view : UIScrollView = UIScrollView.init(frame: self.view.bounds)
-        view.backgroundColor = UIColor.black
+        view.backgroundColor = UIColor.white
         view.contentSize = CGSize(width: self.view.bounds.width, height: self.view.bounds.height)
         view.delegate = self
+        view.isMultipleTouchEnabled = true
         return view
     }()
     
@@ -51,9 +52,9 @@ class ZoomPhotoViewController: UIViewController {
         let widthScale = size.width / image.bounds.width
         let heightScale = size.height / image.bounds.height
         let minScale = min(widthScale, heightScale)
-        
+        //这里不能少
         scrollView.minimumZoomScale = minScale
-        /// set up the init zoom scale
+        scrollView.maximumZoomScale = 2
         scrollView.zoomScale = minScale
     }
 }
@@ -66,6 +67,11 @@ extension ZoomPhotoViewController: UIScrollViewDelegate {
     /// - Returns: the view is zoomed in and out
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return image
+    }
+    
+    func scrollViewDidZoom(_ scrollView: UIScrollView) {
+        //形变后图片保持中心
+        image.center = view.center
     }
 }
 

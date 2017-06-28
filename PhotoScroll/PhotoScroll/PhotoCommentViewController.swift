@@ -59,6 +59,10 @@ class PhotoCommentViewController: UIViewController {
         let generalTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.generateTap))
         view.addGestureRecognizer(generalTapGesture)
         
+        let imageTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.handleImageTapgesture))
+        imageView.isUserInteractionEnabled = true
+        imageView.addGestureRecognizer(imageTapGesture)
+        
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(self.keyboardWillShowHandler(notify:)),
@@ -73,6 +77,11 @@ class PhotoCommentViewController: UIViewController {
         )
     }
     
+    @objc
+    func handleImageTapgesture() {
+        let zoomVC = ZoomPhotoViewController(phtotoName: self.photoName)
+        navigationController?.pushViewController(zoomVC, animated: true)
+    }
     
     
     override func viewWillAppear(_ animated: Bool) {

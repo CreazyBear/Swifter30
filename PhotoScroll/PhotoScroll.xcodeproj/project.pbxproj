@@ -14,6 +14,7 @@
 		097F77451F032EEA00785683 /* PhotoThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F77441F032EEA00785683 /* PhotoThumbnailCollectionViewCell.swift */; };
 		097F77471F03334D00785683 /* PhotoPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F77461F03334D00785683 /* PhotoPagerViewController.swift */; };
 		097F77491F0337C800785683 /* PhotoCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F77481F0337C800785683 /* PhotoCommentViewController.swift */; };
+		09CC53401F0345A5009871CB /* ZoomPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC533F1F0345A5009871CB /* ZoomPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		097F77441F032EEA00785683 /* PhotoThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
 		097F77461F03334D00785683 /* PhotoPagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPagerViewController.swift; sourceTree = "<group>"; };
 		097F77481F0337C800785683 /* PhotoCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentViewController.swift; sourceTree = "<group>"; };
+		09CC533F1F0345A5009871CB /* ZoomPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				097F77441F032EEA00785683 /* PhotoThumbnailCollectionViewCell.swift */,
 				097F77461F03334D00785683 /* PhotoPagerViewController.swift */,
 				097F77481F0337C800785683 /* PhotoCommentViewController.swift */,
+				09CC533F1F0345A5009871CB /* ZoomPhotoViewController.swift */,
 			);
 			path = PhotoScroll;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CC53401F0345A5009871CB /* ZoomPhotoViewController.swift in Sources */,
 				097F77351F032CA500785683 /* ViewController.swift in Sources */,
 				097F77471F03334D00785683 /* PhotoPagerViewController.swift in Sources */,
 				097F77491F0337C800785683 /* PhotoCommentViewController.swift in Sources */,
@@ -302,6 +306,7 @@
 				097F77431F032CA500785683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

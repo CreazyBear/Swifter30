@@ -135,20 +135,47 @@ class DetailViewController: UIViewController {
     
     fileprivate func colorFrameChange(_ firstFrame: CGRect, _ secondFrame: CGRect, _ thirdFrame: CGRect,
                                       _ firstColor: UIColor, _ secondColor: UIColor, _ thirdColor: UIColor) {
-        UIView.animate(withDuration: self.duration, animations: {
-            self.animateView.backgroundColor = firstColor
-            self.animateView.frame = firstFrame
-        }, completion: { finished in
-            UIView.animate(withDuration: self.duration, animations: {
+        
+        //两种方式实现这种连续动画
+// 
+//        UIView.animate(withDuration: self.duration, animations: {
+//            self.animateView.backgroundColor = firstColor
+//            self.animateView.frame = firstFrame
+//        }, completion: { finished in
+//            UIView.animate(withDuration: self.duration, animations: {
+//                self.animateView.backgroundColor = secondColor
+//                self.animateView.frame = secondFrame
+//            }, completion: { finished in
+//                UIView.animate(withDuration: self.duration, animations: {
+//                    self.animateView.backgroundColor = thirdColor
+//                    self.animateView.frame = thirdFrame
+//                }, completion: nil)
+//            })
+//        })
+//        
+        UIView.animateKeyframes(withDuration: 1, delay: delay, options: .calculationModeLinear, animations: {
+            
+            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.5, animations: { 
+                self.animateView.backgroundColor = firstColor
+                self.animateView.frame = firstFrame
+            })
+            
+            UIView.addKeyframe(withRelativeStartTime: 0.5, relativeDuration: 0.5, animations: { 
                 self.animateView.backgroundColor = secondColor
                 self.animateView.frame = secondFrame
-            }, completion: { finished in
-                UIView.animate(withDuration: self.duration, animations: {
-                    self.animateView.backgroundColor = thirdColor
-                    self.animateView.frame = thirdFrame
-                }, completion: nil)
             })
-        })
+            
+            UIView.addKeyframe(withRelativeStartTime: 1.0, relativeDuration: 0.5, animations: { 
+                self.animateView.backgroundColor = thirdColor
+                self.animateView.frame = thirdFrame
+            })
+            
+            
+        }) { (finished) in
+            
+        }
+        
+        
     }
     
     fileprivate func curvePath(_ endPoint: CGPoint, controlPoint1: CGPoint, controlPoint2: CGPoint) {

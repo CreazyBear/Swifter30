@@ -55,6 +55,8 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource
             navigationController?.pushViewController(vc, animated: true)
         }
         else{
+            let vc = SelfDefineDemoViewController()
+            navigationController?.pushViewController(vc, animated: true)
             
         }
     }

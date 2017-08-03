@@ -21,16 +21,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //myapp://user/view/joeldev
 
     func handleJumpToDemo2() {
-        if UIApplication.shared.canOpenURL(URL(string: "Test2://")!)
+        if UIApplication.shared.canOpenURL(URL(string: "Demo2Route2://post/edit/123?debug=true&foo=bar")!)
         {
             let options = [UIApplicationOpenURLOptionUniversalLinksOnly : false]
-            UIApplication.shared.open(URL(string: "Test2://")!, options: options, completionHandler: { (complete) in
+            UIApplication.shared.open(URL(string: "Demo2Route2://post/edit/123?debug=true&foo=bar")!, options: options, completionHandler: { (complete) in
                 print("finished")
-                
-                
-                
             })
         }
     }

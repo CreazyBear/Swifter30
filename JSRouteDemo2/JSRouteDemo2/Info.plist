@@ -25,7 +25,9 @@
 			<string>Bearger22222</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>Test2</string>
+				<string>Demo2Route1</string>
+				<string>Demo2Route2</string>
+				<string>Demo2Route3</string>
 			</array>
 		</dict>
 	</array>

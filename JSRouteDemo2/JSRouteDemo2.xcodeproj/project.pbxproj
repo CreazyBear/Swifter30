@@ -12,6 +12,7 @@
 		09E5D93F1F309864005508C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E5D93D1F309864005508C5 /* Main.storyboard */; };
 		09E5D9411F309864005508C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E5D9401F309864005508C5 /* Assets.xcassets */; };
 		09E5D9441F309864005508C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E5D9421F309864005508C5 /* LaunchScreen.storyboard */; };
+		9B944282B77796123DD6E4DD /* Pods_JSRouteDemo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C74732440013E47CB20126A /* Pods_JSRouteDemo2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		09E5D9401F309864005508C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E5D9431F309864005508C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09E5D9451F309864005508C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C74732440013E47CB20126A /* Pods_JSRouteDemo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSRouteDemo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7809EA7EAEC8920C811C63E /* Pods-JSRouteDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRouteDemo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSRouteDemo2/Pods-JSRouteDemo2.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF2522FFE112945BE18D964 /* Pods-JSRouteDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRouteDemo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSRouteDemo2/Pods-JSRouteDemo2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B944282B77796123DD6E4DD /* Pods_JSRouteDemo2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				09E5D9381F309864005508C5 /* JSRouteDemo2 */,
 				09E5D9371F309864005508C5 /* Products */,
+				0C1B1D9A687FED2B8FF02B71 /* Pods */,
+				E881AC9634CA7776810967F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = JSRouteDemo2;
 			sourceTree = "<group>";
 		};
+		0C1B1D9A687FED2B8FF02B71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7809EA7EAEC8920C811C63E /* Pods-JSRouteDemo2.debug.xcconfig */,
+				DBF2522FFE112945BE18D964 /* Pods-JSRouteDemo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E881AC9634CA7776810967F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C74732440013E47CB20126A /* Pods_JSRouteDemo2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09E5D9481F309864005508C5 /* Build configuration list for PBXNativeTarget "JSRouteDemo2" */;
 			buildPhases = (
+				83B009D913FE0821C3F8C8DE /* [CP] Check Pods Manifest.lock */,
 				09E5D9321F309864005508C5 /* Sources */,
 				09E5D9331F309864005508C5 /* Frameworks */,
 				09E5D9341F309864005508C5 /* Resources */,
+				F6D5D5F73AD56E06A339F6F4 /* [CP] Embed Pods Frameworks */,
+				84BB97E81709B8FEEF5966C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83B009D913FE0821C3F8C8DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84BB97E81709B8FEEF5966C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSRouteDemo2/Pods-JSRouteDemo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D5D5F73AD56E06A339F6F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSRouteDemo2/Pods-JSRouteDemo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09E5D9321F309864005508C5 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		09E5D9491F309864005508C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7809EA7EAEC8920C811C63E /* Pods-JSRouteDemo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2FWNJCD9X7;
@@ -272,6 +348,7 @@
 		};
 		09E5D94A1F309864005508C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF2522FFE112945BE18D964 /* Pods-JSRouteDemo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2FWNJCD9X7;

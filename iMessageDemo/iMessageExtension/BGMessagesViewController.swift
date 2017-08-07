@@ -11,11 +11,25 @@ import Messages
 
 class BGMessagesViewController: MSMessagesAppViewController {
     
+    var nav : UINavigationController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = UIColor.white
+        let rootVC = BGRootViewController()
+        let nav = UINavigationController()
+        nav.pushViewController(rootVC, animated: false)
+        self.addChildViewController(nav)
+        self.view.addSubview(nav.view)
+        let imessageUserDefault = UserDefaults.init(suiteName: "group.imessage.bear")
+        print("\(String(describing: imessageUserDefault?.value(forKey: "name")))")
+        
 
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        BGConversationManager.shared.appDeleagte = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,7 +44,6 @@ class BGMessagesViewController: MSMessagesAppViewController {
         // This will happen when the extension is about to present UI.
         
         // Use this method to configure the extension and restore previously stored state.
-        print("willBecomeActive")
     }
     
     override func didResignActive(with conversation: MSConversation) {
@@ -41,7 +54,6 @@ class BGMessagesViewController: MSMessagesAppViewController {
         // Use this method to release shared resources, save user data, invalidate timers,
         // and store enough state information to restore your extension to its current state
         // in case it is terminated later.
-        print("didResignActive")
     }
    
     override func didReceive(_ message: MSMessage, conversation: MSConversation) {
@@ -71,6 +83,14 @@ class BGMessagesViewController: MSMessagesAppViewController {
         // Called after the extension transitions to a new presentation style.
     
         // Use this method to finalize any behaviors associated with the change in presentation style.
+        if(presentationStyle == .compact)
+        {
+            NotificationCenter.default.post(name: NSNotification.Name.init("MSMessagesAppPresentationStyleCompact"), object: nil)
+        }
+        else
+        {
+            NotificationCenter.default.post(name: NSNotification.Name.init("MSMessagesAppPresentationStyleExpanded"), object: nil)
+        }
     }
 
 }

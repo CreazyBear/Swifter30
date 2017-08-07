@@ -11,6 +11,45 @@
 		091EC25E1F33412400C1D3E5 /* BGMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EC25D1F33412400C1D3E5 /* BGMessagesViewController.swift */; };
 		091EC2631F33412400C1D3E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091EC2621F33412400C1D3E5 /* Assets.xcassets */; };
 		091EC2671F33412400C1D3E5 /* iMessageExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 091EC25A1F33412400C1D3E5 /* iMessageExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		099D70611F3834FF006A63C9 /* angrily.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D703E1F3834FF006A63C9 /* angrily.gif */; };
+		099D70621F3834FF006A63C9 /* angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D703F1F3834FF006A63C9 /* angry.gif */; };
+		099D70631F3834FF006A63C9 /* cake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70401F3834FF006A63C9 /* cake.gif */; };
+		099D70641F3834FF006A63C9 /* celebrate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70411F3834FF006A63C9 /* celebrate.gif */; };
+		099D70651F3834FF006A63C9 /* cold.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70421F3834FF006A63C9 /* cold.gif */; };
+		099D70661F3834FF006A63C9 /* cry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70431F3834FF006A63C9 /* cry.gif */; };
+		099D70671F3834FF006A63C9 /* dizzy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70441F3834FF006A63C9 /* dizzy.gif */; };
+		099D70681F3834FF006A63C9 /* eating.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70451F3834FF006A63C9 /* eating.gif */; };
+		099D70691F3834FF006A63C9 /* excited.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70461F3834FF006A63C9 /* excited.gif */; };
+		099D706A1F3834FF006A63C9 /* fighting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70471F3834FF006A63C9 /* fighting.gif */; };
+		099D706B1F3834FF006A63C9 /* flower.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70481F3834FF006A63C9 /* flower.gif */; };
+		099D706C1F3834FF006A63C9 /* freeze.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70491F3834FF006A63C9 /* freeze.gif */; };
+		099D706D1F3834FF006A63C9 /* goodbye.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D704A1F3834FF006A63C9 /* goodbye.gif */; };
+		099D706E1F3834FF006A63C9 /* greediness.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D704B1F3834FF006A63C9 /* greediness.gif */; };
+		099D706F1F3834FF006A63C9 /* grievance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D704C1F3834FF006A63C9 /* grievance.gif */; };
+		099D70701F3834FF006A63C9 /* handclap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D704D1F3834FF006A63C9 /* handclap.gif */; };
+		099D70711F3834FF006A63C9 /* handsome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D704E1F3834FF006A63C9 /* handsome.gif */; };
+		099D70721F3834FF006A63C9 /* heng.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D704F1F3834FF006A63C9 /* heng.gif */; };
+		099D70731F3834FF006A63C9 /* hi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70501F3834FF006A63C9 /* hi.gif */; };
+		099D70741F3834FF006A63C9 /* idea.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70511F3834FF006A63C9 /* idea.gif */; };
+		099D70751F3834FF006A63C9 /* kiss.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70521F3834FF006A63C9 /* kiss.gif */; };
+		099D70761F3834FF006A63C9 /* laugh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70531F3834FF006A63C9 /* laugh.gif */; };
+		099D70771F3834FF006A63C9 /* lovely.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70541F3834FF006A63C9 /* lovely.gif */; };
+		099D70781F3834FF006A63C9 /* miser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70551F3834FF006A63C9 /* miser.gif */; };
+		099D70791F3834FF006A63C9 /* ok.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70561F3834FF006A63C9 /* ok.gif */; };
+		099D707A1F3834FF006A63C9 /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D70571F3834FF006A63C9 /* panda.png */; };
+		099D707B1F3834FF006A63C9 /* please.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70581F3834FF006A63C9 /* please.gif */; };
+		099D707C1F3834FF006A63C9 /* praise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70591F3834FF006A63C9 /* praise.gif */; };
+		099D707D1F3834FF006A63C9 /* question.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D705A1F3834FF006A63C9 /* question.gif */; };
+		099D707E1F3834FF006A63C9 /* sadness.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D705B1F3834FF006A63C9 /* sadness.gif */; };
+		099D707F1F3834FF006A63C9 /* scorn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D705C1F3834FF006A63C9 /* scorn.gif */; };
+		099D70801F3834FF006A63C9 /* shock.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D705D1F3834FF006A63C9 /* shock.gif */; };
+		099D70811F3834FF006A63C9 /* shy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D705E1F3834FF006A63C9 /* shy.gif */; };
+		099D70821F3834FF006A63C9 /* sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D705F1F3834FF006A63C9 /* sleep.gif */; };
+		099D70831F3834FF006A63C9 /* working.gif in Resources */ = {isa = PBXBuildFile; fileRef = 099D70601F3834FF006A63C9 /* working.gif */; };
+		099D70851F38378B006A63C9 /* BGStickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D70841F38378B006A63C9 /* BGStickerBrowserViewController.swift */; };
+		099D70881F3842AD006A63C9 /* BGSelfDefineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D70871F3842AD006A63C9 /* BGSelfDefineViewController.swift */; };
+		099D708A1F3844A9006A63C9 /* BGRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D70891F3844A9006A63C9 /* BGRootViewController.swift */; };
+		099D708E1F38845A006A63C9 /* BGConversationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D708D1F38845A006A63C9 /* BGConversationManager.swift */; };
 		09C04AEE1F3331F8006551D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C04AED1F3331F8006551D5 /* AppDelegate.swift */; };
 		09C04AF01F3331F8006551D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C04AEF1F3331F8006551D5 /* ViewController.swift */; };
 		09C04AF31F3331F8006551D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C04AF11F3331F8006551D5 /* Main.storyboard */; };
@@ -48,6 +87,46 @@
 		091EC25D1F33412400C1D3E5 /* BGMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGMessagesViewController.swift; sourceTree = "<group>"; };
 		091EC2621F33412400C1D3E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		091EC2641F33412400C1D3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099D703E1F3834FF006A63C9 /* angrily.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = angrily.gif; sourceTree = "<group>"; };
+		099D703F1F3834FF006A63C9 /* angry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = angry.gif; sourceTree = "<group>"; };
+		099D70401F3834FF006A63C9 /* cake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cake.gif; sourceTree = "<group>"; };
+		099D70411F3834FF006A63C9 /* celebrate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = celebrate.gif; sourceTree = "<group>"; };
+		099D70421F3834FF006A63C9 /* cold.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cold.gif; sourceTree = "<group>"; };
+		099D70431F3834FF006A63C9 /* cry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cry.gif; sourceTree = "<group>"; };
+		099D70441F3834FF006A63C9 /* dizzy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dizzy.gif; sourceTree = "<group>"; };
+		099D70451F3834FF006A63C9 /* eating.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eating.gif; sourceTree = "<group>"; };
+		099D70461F3834FF006A63C9 /* excited.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = excited.gif; sourceTree = "<group>"; };
+		099D70471F3834FF006A63C9 /* fighting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fighting.gif; sourceTree = "<group>"; };
+		099D70481F3834FF006A63C9 /* flower.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flower.gif; sourceTree = "<group>"; };
+		099D70491F3834FF006A63C9 /* freeze.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = freeze.gif; sourceTree = "<group>"; };
+		099D704A1F3834FF006A63C9 /* goodbye.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = goodbye.gif; sourceTree = "<group>"; };
+		099D704B1F3834FF006A63C9 /* greediness.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = greediness.gif; sourceTree = "<group>"; };
+		099D704C1F3834FF006A63C9 /* grievance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = grievance.gif; sourceTree = "<group>"; };
+		099D704D1F3834FF006A63C9 /* handclap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = handclap.gif; sourceTree = "<group>"; };
+		099D704E1F3834FF006A63C9 /* handsome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = handsome.gif; sourceTree = "<group>"; };
+		099D704F1F3834FF006A63C9 /* heng.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heng.gif; sourceTree = "<group>"; };
+		099D70501F3834FF006A63C9 /* hi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hi.gif; sourceTree = "<group>"; };
+		099D70511F3834FF006A63C9 /* idea.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = idea.gif; sourceTree = "<group>"; };
+		099D70521F3834FF006A63C9 /* kiss.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kiss.gif; sourceTree = "<group>"; };
+		099D70531F3834FF006A63C9 /* laugh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = laugh.gif; sourceTree = "<group>"; };
+		099D70541F3834FF006A63C9 /* lovely.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lovely.gif; sourceTree = "<group>"; };
+		099D70551F3834FF006A63C9 /* miser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = miser.gif; sourceTree = "<group>"; };
+		099D70561F3834FF006A63C9 /* ok.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ok.gif; sourceTree = "<group>"; };
+		099D70571F3834FF006A63C9 /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda.png; sourceTree = "<group>"; };
+		099D70581F3834FF006A63C9 /* please.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = please.gif; sourceTree = "<group>"; };
+		099D70591F3834FF006A63C9 /* praise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = praise.gif; sourceTree = "<group>"; };
+		099D705A1F3834FF006A63C9 /* question.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = question.gif; sourceTree = "<group>"; };
+		099D705B1F3834FF006A63C9 /* sadness.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sadness.gif; sourceTree = "<group>"; };
+		099D705C1F3834FF006A63C9 /* scorn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scorn.gif; sourceTree = "<group>"; };
+		099D705D1F3834FF006A63C9 /* shock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shock.gif; sourceTree = "<group>"; };
+		099D705E1F3834FF006A63C9 /* shy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shy.gif; sourceTree = "<group>"; };
+		099D705F1F3834FF006A63C9 /* sleep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sleep.gif; sourceTree = "<group>"; };
+		099D70601F3834FF006A63C9 /* working.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = working.gif; sourceTree = "<group>"; };
+		099D70841F38378B006A63C9 /* BGStickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGStickerBrowserViewController.swift; sourceTree = "<group>"; };
+		099D70871F3842AD006A63C9 /* BGSelfDefineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGSelfDefineViewController.swift; sourceTree = "<group>"; };
+		099D70891F3844A9006A63C9 /* BGRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGRootViewController.swift; sourceTree = "<group>"; };
+		099D708D1F38845A006A63C9 /* BGConversationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGConversationManager.swift; sourceTree = "<group>"; };
+		099D708F1F3894DF006A63C9 /* iMessageExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iMessageExtension.entitlements; sourceTree = "<group>"; };
 		09C04AEA1F3331F8006551D5 /* iMessageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C04AED1F3331F8006551D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09C04AEF1F3331F8006551D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,11 +162,67 @@
 		091EC25C1F33412400C1D3E5 /* iMessageExtension */ = {
 			isa = PBXGroup;
 			children = (
-				091EC25D1F33412400C1D3E5 /* BGMessagesViewController.swift */,
+				099D708F1F3894DF006A63C9 /* iMessageExtension.entitlements */,
+				099D70861F383794006A63C9 /* VC */,
+				099D703D1F3834FF006A63C9 /* sticker */,
 				091EC2621F33412400C1D3E5 /* Assets.xcassets */,
 				091EC2641F33412400C1D3E5 /* Info.plist */,
 			);
 			path = iMessageExtension;
+			sourceTree = "<group>";
+		};
+		099D703D1F3834FF006A63C9 /* sticker */ = {
+			isa = PBXGroup;
+			children = (
+				099D703E1F3834FF006A63C9 /* angrily.gif */,
+				099D703F1F3834FF006A63C9 /* angry.gif */,
+				099D70401F3834FF006A63C9 /* cake.gif */,
+				099D70411F3834FF006A63C9 /* celebrate.gif */,
+				099D70421F3834FF006A63C9 /* cold.gif */,
+				099D70431F3834FF006A63C9 /* cry.gif */,
+				099D70441F3834FF006A63C9 /* dizzy.gif */,
+				099D70451F3834FF006A63C9 /* eating.gif */,
+				099D70461F3834FF006A63C9 /* excited.gif */,
+				099D70471F3834FF006A63C9 /* fighting.gif */,
+				099D70481F3834FF006A63C9 /* flower.gif */,
+				099D70491F3834FF006A63C9 /* freeze.gif */,
+				099D704A1F3834FF006A63C9 /* goodbye.gif */,
+				099D704B1F3834FF006A63C9 /* greediness.gif */,
+				099D704C1F3834FF006A63C9 /* grievance.gif */,
+				099D704D1F3834FF006A63C9 /* handclap.gif */,
+				099D704E1F3834FF006A63C9 /* handsome.gif */,
+				099D704F1F3834FF006A63C9 /* heng.gif */,
+				099D70501F3834FF006A63C9 /* hi.gif */,
+				099D70511F3834FF006A63C9 /* idea.gif */,
+				099D70521F3834FF006A63C9 /* kiss.gif */,
+				099D70531F3834FF006A63C9 /* laugh.gif */,
+				099D70541F3834FF006A63C9 /* lovely.gif */,
+				099D70551F3834FF006A63C9 /* miser.gif */,
+				099D70561F3834FF006A63C9 /* ok.gif */,
+				099D70571F3834FF006A63C9 /* panda.png */,
+				099D70581F3834FF006A63C9 /* please.gif */,
+				099D70591F3834FF006A63C9 /* praise.gif */,
+				099D705A1F3834FF006A63C9 /* question.gif */,
+				099D705B1F3834FF006A63C9 /* sadness.gif */,
+				099D705C1F3834FF006A63C9 /* scorn.gif */,
+				099D705D1F3834FF006A63C9 /* shock.gif */,
+				099D705E1F3834FF006A63C9 /* shy.gif */,
+				099D705F1F3834FF006A63C9 /* sleep.gif */,
+				099D70601F3834FF006A63C9 /* working.gif */,
+			);
+			path = sticker;
+			sourceTree = "<group>";
+		};
+		099D70861F383794006A63C9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				091EC25D1F33412400C1D3E5 /* BGMessagesViewController.swift */,
+				099D70841F38378B006A63C9 /* BGStickerBrowserViewController.swift */,
+				099D70871F3842AD006A63C9 /* BGSelfDefineViewController.swift */,
+				099D70891F3844A9006A63C9 /* BGRootViewController.swift */,
+				099D708D1F38845A006A63C9 /* BGConversationManager.swift */,
+			);
+			name = VC;
 			sourceTree = "<group>";
 		};
 		09C04AE11F3331F8006551D5 = {
@@ -185,6 +320,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2FWNJCD9X7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					09C04AE91F3331F8006551D5 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -225,7 +365,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099D707C1F3834FF006A63C9 /* praise.gif in Resources */,
+				099D707B1F3834FF006A63C9 /* please.gif in Resources */,
+				099D70791F3834FF006A63C9 /* ok.gif in Resources */,
+				099D706C1F3834FF006A63C9 /* freeze.gif in Resources */,
+				099D70771F3834FF006A63C9 /* lovely.gif in Resources */,
+				099D70741F3834FF006A63C9 /* idea.gif in Resources */,
+				099D707D1F3834FF006A63C9 /* question.gif in Resources */,
+				099D707E1F3834FF006A63C9 /* sadness.gif in Resources */,
+				099D70631F3834FF006A63C9 /* cake.gif in Resources */,
+				099D70821F3834FF006A63C9 /* sleep.gif in Resources */,
+				099D70781F3834FF006A63C9 /* miser.gif in Resources */,
+				099D70721F3834FF006A63C9 /* heng.gif in Resources */,
 				091EC2631F33412400C1D3E5 /* Assets.xcassets in Resources */,
+				099D70661F3834FF006A63C9 /* cry.gif in Resources */,
+				099D70611F3834FF006A63C9 /* angrily.gif in Resources */,
+				099D706F1F3834FF006A63C9 /* grievance.gif in Resources */,
+				099D70621F3834FF006A63C9 /* angry.gif in Resources */,
+				099D70801F3834FF006A63C9 /* shock.gif in Resources */,
+				099D70701F3834FF006A63C9 /* handclap.gif in Resources */,
+				099D706B1F3834FF006A63C9 /* flower.gif in Resources */,
+				099D707F1F3834FF006A63C9 /* scorn.gif in Resources */,
+				099D70651F3834FF006A63C9 /* cold.gif in Resources */,
+				099D70681F3834FF006A63C9 /* eating.gif in Resources */,
+				099D706A1F3834FF006A63C9 /* fighting.gif in Resources */,
+				099D70831F3834FF006A63C9 /* working.gif in Resources */,
+				099D70811F3834FF006A63C9 /* shy.gif in Resources */,
+				099D706D1F3834FF006A63C9 /* goodbye.gif in Resources */,
+				099D70711F3834FF006A63C9 /* handsome.gif in Resources */,
+				099D70751F3834FF006A63C9 /* kiss.gif in Resources */,
+				099D70731F3834FF006A63C9 /* hi.gif in Resources */,
+				099D706E1F3834FF006A63C9 /* greediness.gif in Resources */,
+				099D70691F3834FF006A63C9 /* excited.gif in Resources */,
+				099D707A1F3834FF006A63C9 /* panda.png in Resources */,
+				099D70761F3834FF006A63C9 /* laugh.gif in Resources */,
+				099D70641F3834FF006A63C9 /* celebrate.gif in Resources */,
+				099D70671F3834FF006A63C9 /* dizzy.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +421,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099D70851F38378B006A63C9 /* BGStickerBrowserViewController.swift in Sources */,
+				099D708A1F3844A9006A63C9 /* BGRootViewController.swift in Sources */,
+				099D70881F3842AD006A63C9 /* BGSelfDefineViewController.swift in Sources */,
 				091EC25E1F33412400C1D3E5 /* BGMessagesViewController.swift in Sources */,
+				099D708E1F38845A006A63C9 /* BGConversationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = iMessageExtension/iMessageExtension.entitlements;
 				DEVELOPMENT_TEAM = 2FWNJCD9X7;
 				INFOPLIST_FILE = iMessageExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -307,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = iMessageExtension/iMessageExtension.entitlements;
 				DEVELOPMENT_TEAM = 2FWNJCD9X7;
 				INFOPLIST_FILE = iMessageExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -450,6 +631,7 @@
 				091EC26A1F33412400C1D3E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09C04AE51F3331F8006551D5 /* Build configuration list for PBXProject "iMessageDemo" */ = {
 			isa = XCConfigurationList;

@@ -10,11 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var jump: UIButton!
+    
+    lazy var jump : UIButton = {
+        let view = UIButton()
+        view.backgroundColor = UIColor.white
+        view.layer.borderWidth = 0.5
+        view.layer.borderColor = UIColor.gray.cgColor
+        view.layer.cornerRadius = 4
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.setTitle("Jump", for: .normal)
+        view.setTitleColor(UIColor.black, for: .normal)
+        view.addTarget(self, action: #selector(handleJumpButtonClicked), for: .touchUpInside)
+        return view
+    }()
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+        title = "VC 1"
+        view.backgroundColor = UIColor.white
+        view.addSubview(jump)
+        jump.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        jump.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        jump.widthAnchor.constraint(equalToConstant: 140).isActive = true
+        jump.heightAnchor.constraint(equalToConstant: 40).isActive = true
         jump.addTarget(self, action: #selector(handleJumpButtonClicked), for: .touchUpInside)
     }
 

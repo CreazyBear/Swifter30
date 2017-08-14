@@ -35,6 +35,7 @@
 	<string>1</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>bgrouter</string>
 		<string>Demo2Route3</string>
 		<string>Demo2Route1</string>
 		<string>Demo2Route2</string>

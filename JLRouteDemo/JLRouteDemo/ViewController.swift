@@ -25,10 +25,11 @@ class ViewController: UIViewController {
     //myapp://user/view/joeldev
 
     func handleJumpToDemo2() {
-        if UIApplication.shared.canOpenURL(URL(string: "Demo2Route2://post/edit/123?debug=true&foo=bar")!)
+        let url = "bgrouter://page?className=RouteManager.BGViewController2&params=%7B%22title%22%3A%22hello%22%7D"
+        if UIApplication.shared.canOpenURL(URL(string: url)!)
         {
             let options = [UIApplicationOpenURLOptionUniversalLinksOnly : false]
-            UIApplication.shared.open(URL(string: "Demo2Route2://post/edit/123?debug=true&foo=bar")!, options: options, completionHandler: { (complete) in
+            UIApplication.shared.open(URL(string: url)!, options: options, completionHandler: { (complete) in
                 print("finished")
             })
         }

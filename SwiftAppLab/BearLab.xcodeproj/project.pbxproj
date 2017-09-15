@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B62AB69BA94E6F2CEF0438 /* Pods_BearLabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FF6EB9607D99A7B975AC19 /* Pods_BearLabUITests.framework */; };
+		A5565E771E6EFE2E00028991 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5565E761E6EFE2E00028991 /* HomeViewController.swift */; };
+		A5565E791E6EFE3900028991 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5565E781E6EFE3900028991 /* MineViewController.swift */; };
+		A5565E7B1E6EFE4000028991 /* ModViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5565E7A1E6EFE4000028991 /* ModViewController.swift */; };
+		A5565E7D1E6EFF7700028991 /* MineNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5565E7C1E6EFF7700028991 /* MineNavigationViewController.swift */; };
+		A5565E7F1E6EFF8A00028991 /* HomeNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5565E7E1E6EFF8A00028991 /* HomeNavigationViewController.swift */; };
+		A5565E811E6EFF9800028991 /* ModNavigaitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5565E801E6EFF9800028991 /* ModNavigaitonViewController.swift */; };
+		A5D8E22D1E6DCD160065EB6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D8E22C1E6DCD160065EB6B /* AppDelegate.swift */; };
+		A5D8E2351E6DCD160065EB6B /* BearLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5D8E2331E6DCD160065EB6B /* BearLab.xcdatamodeld */; };
+		A5D8E2371E6DCD160065EB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D8E2361E6DCD160065EB6B /* Assets.xcassets */; };
+		A5D8E23A1E6DCD160065EB6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D8E2381E6DCD160065EB6B /* LaunchScreen.storyboard */; };
+		A5D8E2451E6DCD160065EB6B /* BearLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D8E2441E6DCD160065EB6B /* BearLabTests.swift */; };
+		A5D8E2501E6DCD160065EB6B /* BearLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D8E24F1E6DCD160065EB6B /* BearLabUITests.swift */; };
+		B623CACFD59BFE1BCA347B23 /* Pods_BearLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945D4DDD35B2319FEBBAFB39 /* Pods_BearLab.framework */; };
+		E5771CCF9EFA6A810AB83D1C /* Pods_BearLabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E338BF9E2BD06658BDE0DFA1 /* Pods_BearLabTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D8E2411E6DCD160065EB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D8E2211E6DCD160065EB6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D8E2281E6DCD160065EB6B;
+			remoteInfo = BearLab;
+		};
+		A5D8E24C1E6DCD160065EB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D8E2211E6DCD160065EB6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D8E2281E6DCD160065EB6B;
+			remoteInfo = BearLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08344142192B501E4A59A836 /* Pods-BearLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BearLab/Pods-BearLab.debug.xcconfig"; sourceTree = "<group>"; };
+		3963F9FFF3E50BC7EE3A83C9 /* Pods-BearLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearLabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BearLabUITests/Pods-BearLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54B238F0DD614A924AABC5C7 /* Pods-BearLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearLabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BearLabTests/Pods-BearLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		945D4DDD35B2319FEBBAFB39 /* Pods_BearLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BearLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6A87A6DB3EA2D84F195B26 /* Pods-BearLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-BearLab/Pods-BearLab.release.xcconfig"; sourceTree = "<group>"; };
+		A5565E761E6EFE2E00028991 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5565E781E6EFE3900028991 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		A5565E7A1E6EFE4000028991 /* ModViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModViewController.swift; sourceTree = "<group>"; };
+		A5565E7C1E6EFF7700028991 /* MineNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineNavigationViewController.swift; sourceTree = "<group>"; };
+		A5565E7E1E6EFF8A00028991 /* HomeNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationViewController.swift; sourceTree = "<group>"; };
+		A5565E801E6EFF9800028991 /* ModNavigaitonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModNavigaitonViewController.swift; sourceTree = "<group>"; };
+		A5D8E2291E6DCD160065EB6B /* BearLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BearLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D8E22C1E6DCD160065EB6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D8E2341E6DCD160065EB6B /* BearLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BearLab.xcdatamodel; sourceTree = "<group>"; };
+		A5D8E2361E6DCD160065EB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D8E2391E6DCD160065EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5D8E23B1E6DCD160065EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D8E2401E6DCD160065EB6B /* BearLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BearLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D8E2441E6DCD160065EB6B /* BearLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearLabTests.swift; sourceTree = "<group>"; };
+		A5D8E2461E6DCD160065EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D8E24B1E6DCD160065EB6B /* BearLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BearLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D8E24F1E6DCD160065EB6B /* BearLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearLabUITests.swift; sourceTree = "<group>"; };
+		A5D8E2511E6DCD160065EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FF6EB9607D99A7B975AC19 /* Pods_BearLabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BearLabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87FD2B8BBE0910C5B0BFE8B /* Pods-BearLabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearLabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BearLabUITests/Pods-BearLabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E338BF9E2BD06658BDE0DFA1 /* Pods_BearLabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BearLabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E478E52448A62D8BCAE28DA1 /* Pods-BearLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearLabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BearLabTests/Pods-BearLabTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D8E2261E6DCD160065EB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B623CACFD59BFE1BCA347B23 /* Pods_BearLab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D8E23D1E6DCD160065EB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5771CCF9EFA6A810AB83D1C /* Pods_BearLabTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D8E2481E6DCD160065EB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B62AB69BA94E6F2CEF0438 /* Pods_BearLabUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3CB5B52378708E551954D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08344142192B501E4A59A836 /* Pods-BearLab.debug.xcconfig */,
+				9B6A87A6DB3EA2D84F195B26 /* Pods-BearLab.release.xcconfig */,
+				54B238F0DD614A924AABC5C7 /* Pods-BearLabTests.debug.xcconfig */,
+				E478E52448A62D8BCAE28DA1 /* Pods-BearLabTests.release.xcconfig */,
+				3963F9FFF3E50BC7EE3A83C9 /* Pods-BearLabUITests.debug.xcconfig */,
+				C87FD2B8BBE0910C5B0BFE8B /* Pods-BearLabUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A520051D1E818A5700AF84E2 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8E22C1E6DCD160065EB6B /* AppDelegate.swift */,
+				A5D8E2381E6DCD160065EB6B /* LaunchScreen.storyboard */,
+				A5D8E23B1E6DCD160065EB6B /* Info.plist */,
+				A5D8E2331E6DCD160065EB6B /* BearLab.xcdatamodeld */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A520051E1E818A6700AF84E2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8E2361E6DCD160065EB6B /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		A5565E721E6EFDF900028991 /* Mod */ = {
+			isa = PBXGroup;
+			children = (
+				A5565E7A1E6EFE4000028991 /* ModViewController.swift */,
+				A5565E801E6EFF9800028991 /* ModNavigaitonViewController.swift */,
+			);
+			name = Mod;
+			sourceTree = "<group>";
+		};
+		A5565E741E6EFE1300028991 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5565E761E6EFE2E00028991 /* HomeViewController.swift */,
+				A5565E7E1E6EFF8A00028991 /* HomeNavigationViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A5565E751E6EFE1800028991 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				A5565E781E6EFE3900028991 /* MineViewController.swift */,
+				A5565E7C1E6EFF7700028991 /* MineNavigationViewController.swift */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		A5D8E2201E6DCD160065EB6B = {
+			isa = PBXGroup;
+			children = (
+				A5D8E22B1E6DCD160065EB6B /* BearLab */,
+				A5D8E2431E6DCD160065EB6B /* BearLabTests */,
+				A5D8E24E1E6DCD160065EB6B /* BearLabUITests */,
+				A5D8E22A1E6DCD160065EB6B /* Products */,
+				2E3CB5B52378708E551954D8 /* Pods */,
+				D561AC4ED8CA68B6E95E5293 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D8E22A1E6DCD160065EB6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8E2291E6DCD160065EB6B /* BearLab.app */,
+				A5D8E2401E6DCD160065EB6B /* BearLabTests.xctest */,
+				A5D8E24B1E6DCD160065EB6B /* BearLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D8E22B1E6DCD160065EB6B /* BearLab */ = {
+			isa = PBXGroup;
+			children = (
+				A520051E1E818A6700AF84E2 /* Resource */,
+				A520051D1E818A5700AF84E2 /* SupportFiles */,
+				A5565E751E6EFE1800028991 /* Mine */,
+				A5565E741E6EFE1300028991 /* Home */,
+				A5565E721E6EFDF900028991 /* Mod */,
+			);
+			path = BearLab;
+			sourceTree = "<group>";
+		};
+		A5D8E2431E6DCD160065EB6B /* BearLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8E2441E6DCD160065EB6B /* BearLabTests.swift */,
+				A5D8E2461E6DCD160065EB6B /* Info.plist */,
+			);
+			path = BearLabTests;
+			sourceTree = "<group>";
+		};
+		A5D8E24E1E6DCD160065EB6B /* BearLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8E24F1E6DCD160065EB6B /* BearLabUITests.swift */,
+				A5D8E2511E6DCD160065EB6B /* Info.plist */,
+			);
+			path = BearLabUITests;
+			sourceTree = "<group>";
+		};
+		D561AC4ED8CA68B6E95E5293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945D4DDD35B2319FEBBAFB39 /* Pods_BearLab.framework */,
+				E338BF9E2BD06658BDE0DFA1 /* Pods_BearLabTests.framework */,
+				C3FF6EB9607D99A7B975AC19 /* Pods_BearLabUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D8E2281E6DCD160065EB6B /* BearLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D8E2541E6DCD160065EB6B /* Build configuration list for PBXNativeTarget "BearLab" */;
+			buildPhases = (
+				0B76E95933D8114673E8E7C3 /* [CP] Check Pods Manifest.lock */,
+				A5D8E2251E6DCD160065EB6B /* Sources */,
+				A5D8E2261E6DCD160065EB6B /* Frameworks */,
+				A5D8E2271E6DCD160065EB6B /* Resources */,
+				D3345B00EE37606C0A4CA9F6 /* [CP] Embed Pods Frameworks */,
+				68526B822C802ED1F0816707 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BearLab;
+			productName = BearLab;
+			productReference = A5D8E2291E6DCD160065EB6B /* BearLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D8E23F1E6DCD160065EB6B /* BearLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D8E2571E6DCD160065EB6B /* Build configuration list for PBXNativeTarget "BearLabTests" */;
+			buildPhases = (
+				0AD332A4D83DCE5483922BA7 /* [CP] Check Pods Manifest.lock */,
+				A5D8E23C1E6DCD160065EB6B /* Sources */,
+				A5D8E23D1E6DCD160065EB6B /* Frameworks */,
+				A5D8E23E1E6DCD160065EB6B /* Resources */,
+				EF4998F12220515FF91696A6 /* [CP] Embed Pods Frameworks */,
+				A7478248EE1F29C578A997CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D8E2421E6DCD160065EB6B /* PBXTargetDependency */,
+			);
+			name = BearLabTests;
+			productName = BearLabTests;
+			productReference = A5D8E2401E6DCD160065EB6B /* BearLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5D8E24A1E6DCD160065EB6B /* BearLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D8E25A1E6DCD160065EB6B /* Build configuration list for PBXNativeTarget "BearLabUITests" */;
+			buildPhases = (
+				6D42E1B66C6BFFDDD5B56CFE /* [CP] Check Pods Manifest.lock */,
+				A5D8E2471E6DCD160065EB6B /* Sources */,
+				A5D8E2481E6DCD160065EB6B /* Frameworks */,
+				A5D8E2491E6DCD160065EB6B /* Resources */,
+				D26510F83D111E8FBD2C2A99 /* [CP] Embed Pods Frameworks */,
+				8C79207A4E8E2FEBF9F247DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D8E24D1E6DCD160065EB6B /* PBXTargetDependency */,
+			);
+			name = BearLabUITests;
+			productName = BearLabUITests;
+			productReference = A5D8E24B1E6DCD160065EB6B /* BearLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D8E2211E6DCD160065EB6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "熊伟";
+				TargetAttributes = {
+					A5D8E2281E6DCD160065EB6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2FWNJCD9X7;
+						ProvisioningStyle = Automatic;
+					};
+					A5D8E23F1E6DCD160065EB6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5D8E2281E6DCD160065EB6B;
+					};
+					A5D8E24A1E6DCD160065EB6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5D8E2281E6DCD160065EB6B;
+					};
+				};
+			};
+			buildConfigurationList = A5D8E2241E6DCD160065EB6B /* Build configuration list for PBXProject "BearLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D8E2201E6DCD160065EB6B;
+			productRefGroup = A5D8E22A1E6DCD160065EB6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D8E2281E6DCD160065EB6B /* BearLab */,
+				A5D8E23F1E6DCD160065EB6B /* BearLabTests */,
+				A5D8E24A1E6DCD160065EB6B /* BearLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D8E2271E6DCD160065EB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D8E23A1E6DCD160065EB6B /* LaunchScreen.storyboard in Resources */,
+				A5D8E2371E6DCD160065EB6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D8E23E1E6DCD160065EB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D8E2491E6DCD160065EB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD332A4D83DCE5483922BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0B76E95933D8114673E8E7C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68526B822C802ED1F0816707 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BearLab/Pods-BearLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D42E1B66C6BFFDDD5B56CFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C79207A4E8E2FEBF9F247DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BearLabUITests/Pods-BearLabUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7478248EE1F29C578A997CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BearLabTests/Pods-BearLabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26510F83D111E8FBD2C2A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BearLabUITests/Pods-BearLabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3345B00EE37606C0A4CA9F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BearLab/Pods-BearLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4998F12220515FF91696A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BearLabTests/Pods-BearLabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D8E2251E6DCD160065EB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D8E2351E6DCD160065EB6B /* BearLab.xcdatamodeld in Sources */,
+				A5565E7F1E6EFF8A00028991 /* HomeNavigationViewController.swift in Sources */,
+				A5D8E22D1E6DCD160065EB6B /* AppDelegate.swift in Sources */,
+				A5565E7D1E6EFF7700028991 /* MineNavigationViewController.swift in Sources */,
+				A5565E7B1E6EFE4000028991 /* ModViewController.swift in Sources */,
+				A5565E811E6EFF9800028991 /* ModNavigaitonViewController.swift in Sources */,
+				A5565E771E6EFE2E00028991 /* HomeViewController.swift in Sources */,
+				A5565E791E6EFE3900028991 /* MineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D8E23C1E6DCD160065EB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D8E2451E6DCD160065EB6B /* BearLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D8E2471E6DCD160065EB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D8E2501E6DCD160065EB6B /* BearLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D8E2421E6DCD160065EB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D8E2281E6DCD160065EB6B /* BearLab */;
+			targetProxy = A5D8E2411E6DCD160065EB6B /* PBXContainerItemProxy */;
+		};
+		A5D8E24D1E6DCD160065EB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D8E2281E6DCD160065EB6B /* BearLab */;
+			targetProxy = A5D8E24C1E6DCD160065EB6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5D8E2381E6DCD160065EB6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D8E2391E6DCD160065EB6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D8E2521E6DCD160065EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5D8E2531E6DCD160065EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D8E2551E6DCD160065EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08344142192B501E4A59A836 /* Pods-BearLab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = BearLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.BearLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5D8E2561E6DCD160065EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6A87A6DB3EA2D84F195B26 /* Pods-BearLab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = BearLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.BearLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A5D8E2581E6DCD160065EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B238F0DD614A924AABC5C7 /* Pods-BearLabTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BearLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.BearLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BearLab.app/BearLab";
+			};
+			name = Debug;
+		};
+		A5D8E2591E6DCD160065EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E478E52448A62D8BCAE28DA1 /* Pods-BearLabTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BearLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.BearLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BearLab.app/BearLab";
+			};
+			name = Release;
+		};
+		A5D8E25B1E6DCD160065EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3963F9FFF3E50BC7EE3A83C9 /* Pods-BearLabUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BearLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.BearLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BearLab;
+			};
+			name = Debug;
+		};
+		A5D8E25C1E6DCD160065EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87FD2B8BBE0910C5B0BFE8B /* Pods-BearLabUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BearLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.BearLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BearLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D8E2241E6DCD160065EB6B /* Build configuration list for PBXProject "BearLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D8E2521E6DCD160065EB6B /* Debug */,
+				A5D8E2531E6DCD160065EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D8E2541E6DCD160065EB6B /* Build configuration list for PBXNativeTarget "BearLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D8E2551E6DCD160065EB6B /* Debug */,
+				A5D8E2561E6DCD160065EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D8E2571E6DCD160065EB6B /* Build configuration list for PBXNativeTarget "BearLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D8E2581E6DCD160065EB6B /* Debug */,
+				A5D8E2591E6DCD160065EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D8E25A1E6DCD160065EB6B /* Build configuration list for PBXNativeTarget "BearLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D8E25B1E6DCD160065EB6B /* Debug */,
+				A5D8E25C1E6DCD160065EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5D8E2331E6DCD160065EB6B /* BearLab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5D8E2341E6DCD160065EB6B /* BearLab.xcdatamodel */,
+			);
+			currentVersion = A5D8E2341E6DCD160065EB6B /* BearLab.xcdatamodel */;
+			path = BearLab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5D8E2211E6DCD160065EB6B /* Project object */;
+}

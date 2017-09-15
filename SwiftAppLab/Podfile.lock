@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.4.0)
+  - DeviceKit (1.0.1)
+  - FLEX (2.4.0)
+  - PureLayout (3.0.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - DeviceKit (~> 1.0)
+  - FLEX (~> 2.0)
+  - PureLayout
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  DeviceKit: 461e525867e48e725f41699c1cab3100df1258ff
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 5570ffa5091c1952a514f1ca0e0e76c253b429e8
+
+COCOAPODS: 1.2.0

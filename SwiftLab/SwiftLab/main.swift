@@ -8,6 +8,7 @@
 
 import Foundation
 
-let array = [1,2,3,4]
-print("\(array[5])")
+let stringLab = StringLab.init()
+stringLab.startTest()
+
 

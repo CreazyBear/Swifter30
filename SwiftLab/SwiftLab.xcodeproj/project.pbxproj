@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A5BF71C31EC0D03700645011 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF71C21EC0D03700645011 /* main.swift */; };
+		A5F6CFF52132F68F007FC35B /* StringLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F6CFF42132F68F007FC35B /* StringLab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A5BF71BF1EC0D03700645011 /* SwiftLab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLab; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BF71C21EC0D03700645011 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A5F6CFF42132F68F007FC35B /* StringLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BF71C21EC0D03700645011 /* main.swift */,
+				A5F6CFF42132F68F007FC35B /* StringLab.swift */,
 			);
 			path = SwiftLab;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F6CFF52132F68F007FC35B /* StringLab.swift in Sources */,
 				A5BF71C31EC0D03700645011 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +256,7 @@
 				A5BF71C81EC0D03700645011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
